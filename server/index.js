@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 app.use(cors());
 
-const allowedOrigins = ["https://helpful-horse-caf139.netlify.app",http://localhost:5173", "http://localhost:3000"];
+const allowedOrigins = ["https://helpful-horse-caf139.netlify.app","http://localhost:5173", "http://localhost:3000"];
 
 const io = new Server(server, {
   cors: {
